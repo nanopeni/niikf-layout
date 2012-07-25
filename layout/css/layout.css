@@ -1,4 +1,4 @@
-.debug {
+.debug .wrap, .debug .footer {
     opacity: 0.8
 }
 
@@ -11,4 +11,58 @@
     top: 0;
     opacity: 1;
     z-index: -1;
+}
+
+
+/* some resets */
+html, body, div, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+/* end of some resets */
+
+/* sticky footer */
+html, body, .wrap { height: 100%; }
+
+body > .wrap {height: auto; min-height: 100%;}
+
+.main { padding-bottom: 150px; }  /* must be same height as the footer */
+
+.footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;}
+
+/* CLEAR FIX*/
+.clearfix:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+/* end of sticky footer */
+
+
+
+/* centered main block*/
+.main, .footer {
+    left: 50%;
+    margin-left: -471px;
+    position: relative;
+    width: 941px;
+}
+/* end of centered main block */
+
+
+
+/* custom blocks */
+
+.header {
+    height: 211px;
+    background: #eee;
 }
