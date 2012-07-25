@@ -1,4 +1,3 @@
-niikf-layout
+default-layout
 ============
 
-niikf.tomsk.ru
