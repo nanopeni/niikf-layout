@@ -87,45 +87,19 @@ body > .wrap {height: auto; min-height: 100%;}
 
 
 .main-menu {
-    text-align: justify;
-    padding:0;
-    margin:0;
+    border-collapse: collapse;
+    border-top: 3px solid red;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
     font: 12px 'OpenSansBold';
-}
-
-.menu-item_outerWrap {
-    display: inline;
-}
-
-.menu-item {
-    background-color: Green;
-    display: inline-block;
-    padding: 5px 15px;
-    position: relative;
-    text-align: left;
-}
-
-* html .menu-item {
-    display: inline;
-    zoom: 1;
-}
-
-*+html .menu-item {
-    display: inline;
-    zoom: 1;
-}
-
-.menu-item_innerWrap {
-    display: block;
-}
-
-.menu-item_sizer {
+    height: 49px;
+    margin: 39px 0 0;
+    padding: 0;
+    text-align: justify;
     width: 100%;
 }
 
-.menu-item-icon {
-    background-color: Red;
-    height: 5px;
-    position: absolute;
-    right: 0;
+.main-menu td {
+    text-align: center;
 }
+
