@@ -15,7 +15,7 @@
 
 
 /* some resets */
-html, body, div, h1, h2, h3, h4, ul, table {
+html, body, div, h1, h2, h3, h4, ul, table, p {
     margin: 0;
     padding: 0;
 }
@@ -60,6 +60,10 @@ body > .wrap {height: auto; min-height: 100%;}
 
 a {
     color: #DC5A00;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'OpenSansBold', 'Myriad Pro', 'Trebuchet MS', sans-serif;
 }
 
 /* custom blocks */
@@ -159,11 +163,13 @@ a {
 .main-b .left-col ul {
     margin-left: 44px;
     margin-top: 74px;
+    list-style-type: circle;
 }
 
 .main-b .right-col ul {
     margin-left: 51px;
     margin-top: 83px;
+    list-style-type: circle;
 }
 
 .main-b ul a, .main-b ul li {
@@ -176,9 +182,8 @@ a {
 }
 
 .main-b .right-col ul li {
-    margin-top: 7px;
+    margin-top: 10px;
 }
-
 
 .main-b .left-col ul a, .main-b .left-col ul li {
     font-size: 14px;
@@ -206,10 +211,10 @@ a {
 
 /* main-content */
 .main-content {
+    clear: both;
     font-family: 'OpenSansRegular',sans-serif;
     font-size: 12px;
-    margin-top: 33px;
-    clear:both;
+    margin-top: 12px;
 }
 
 .main-content .left-col {
@@ -223,16 +228,19 @@ a {
 
 
 .section-header {
-    border-top: 4px solid #515151;
     border-bottom: 1px solid #515151;
+    border-top: 4px solid #515151;
     height: 41px;
     line-height: 42px;
+    margin-bottom: 8px;
+    margin-top: 21px;
 }
 
 .section-header h3 {
     float: left;
     font-size: 13px;
     margin-left: 14px;
+    color: #252525;
 }
 
 .section-header a {
@@ -240,11 +248,19 @@ a {
     margin-right: 10px;
 }
 
+.main-content .right-col .section-header h3 {
+    float: left;
+    font-size: 13px;
+    margin-left: 9px;
+}
+
 
 
 .main-content .big-first-letter:first-letter {
-    font-size: 62px;
+    display: block;
     float: left;
+    font-size: 62px;
+    line-height: 52px;
     margin-left: -10px;
 }
 
@@ -252,8 +268,53 @@ a {
     line-height: 20px;
     padding-left: 10px;
     font-size: 11px;
+    letter-spacing: 0.63px;
+    margin-top: 2px;
+}
+
+.main-content .right-col p {
+    padding-left: 2px;
+}
+
+.section-item {
+    margin-bottom: 3px;
 }
 
 /* main-content */
+
+
+
+
+/* pre-footer */
+.pre-footer {
+    margin-top: 47px;
+}
+
+.pre-footer .item {
+    float: left;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.pre-footer .item .img-holder {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.pre-footer .b-right {
+    margin-left: 20px;
+}
+
+.pre-footer h2 {
+    font-family: 'OpenSansSemibold', sans-serif;
+    font-size: 23px;
+    width: 200px;
+    float: left;
+
+}
+
+/* pre-footer */
+
 
 
