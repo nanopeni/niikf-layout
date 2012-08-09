@@ -617,3 +617,46 @@ ul.breadcrumbs {
     line-height: 20px;
 }
 
+/* inner-content */
+
+/* generic headers */
+.section-content h1 {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #5282ae;
+    font-weight: normal;
+    margin: 16px;
+}
+.section-content h2 {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #53a555;
+    font-weight: normal;
+    margin: 16px;
+}
+.section-content h3 {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #4d4d4d;
+    font-weight: bold;
+    margin: 16px;
+}
+.section-content h4 {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #545454;
+    font-weight: normal;
+    margin: 16px;
+}
+.section-content h5 {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #7e7e7e;
+    font-weight: normal;
+    font-style: italic;
+    margin: 16px;
+}
+
+
+
+
