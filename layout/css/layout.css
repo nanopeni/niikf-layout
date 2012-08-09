@@ -2,10 +2,19 @@
     opacity: 0.8
 }
 
-.debug .dev-layout-main {
+.debug .dev-index-layout {
     background: url('../images/niikif-index-layout.jpg') top center no-repeat;
-    position: absolute;
     height: 1616px;
+}
+
+.debug .dev-inner-2-layout-1 {
+    background: url('../images/niikif-inner-2-layout-1.jpg') center -16px no-repeat;
+    height: 1532px;
+}
+
+
+.debug .dev-layout {
+    position: absolute;
     width: 100%;
     left: 0;
     top: 0;
@@ -30,8 +39,8 @@ body > .wrap {height: auto; min-height: 100%;}
 
 .footer {
     position: relative;
-    margin-top: -150px; /* negative value of footer height */
-    height: 150px;
+    margin-top: -543px; /* negative value of footer height */
+    height: 515px;
     clear:both;}
 
 /* CLEAR FIX*/
@@ -173,6 +182,13 @@ h1,h2,h3,h4,h5 {
 .submenu li a {
     color: #DC5A00;
 }
+
+.submenu li span {
+    color: #fff;
+    background: #f68047;
+    padding: 5px 10px;
+}
+
 
 /* main submenu */
 
