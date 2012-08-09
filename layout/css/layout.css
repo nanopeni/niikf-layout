@@ -154,5 +154,50 @@ body > .wrap {height: auto; min-height: 100%;}
     text-indent: -9999px;
 }
 
+.main-b .left-col ul {
+    margin-left: 44px;
+    margin-top: 74px;
+}
+
+.main-b .right-col ul {
+    margin-left: 51px;
+    margin-top: 83px;
+}
+
+.main-b ul a, .main-b ul li {
+    color: #FFFFFF;
+    font-family: 'OpenSansRegular',sans-serif;
+}
+
+.main-b .left-col ul li {
+    margin-top: 5px;
+}
+
+.main-b .right-col ul li {
+    margin-top: 7px;
+}
+
+
+.main-b .left-col ul a, .main-b .left-col ul li {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.main-b .right-col ul a, .main-b .left-col ul li {
+    font-size: 16px;
+    line-height: 17px;
+}
+
+.main-b .left-col {
+    height: 380px;
+    background: url('../images/main-bg.jpg') 0 0 no-repeat;
+}
+
+.main-b .right-col {
+    height: 380px;
+    background: url('../images/main-bg.jpg') 0 -380px no-repeat;
+}
+
+
 /* main-b */
 
