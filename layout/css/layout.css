@@ -15,7 +15,7 @@
 
 
 /* some resets */
-html, body, div, h1, h2, h3, h4 {
+html, body, div, h1, h2, h3, h4, ul, table {
     margin: 0;
     padding: 0;
 }
@@ -84,14 +84,14 @@ body > .wrap {height: auto; min-height: 100%;}
     float: left;
 }
 
-
+/* main menu */
 
 .main-menu {
     border-collapse: collapse;
-    border-top: 3px solid red;
-    border-bottom: 1px solid red;
-    border-left: 1px solid red;
-    font: 12px 'OpenSansBold';
+    border-top: 3px solid #389674;
+    border-bottom: 1px solid #389674;
+    font-size: 12px;
+    font-family: 'OpenSansBold', 'Myriad Pro', 'Trebuchet MS', sans-serif;
     height: 49px;
     margin: 39px 0 0;
     padding: 0;
@@ -101,5 +101,58 @@ body > .wrap {height: auto; min-height: 100%;}
 
 .main-menu td {
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
+
+.main-menu span, .main-menu a {
+    line-height: 45px;
+    padding: 0 8px;
+    display: block;
+}
+
+.main-menu span {
+    background: none repeat scroll 0 0 #389674;
+    color: #FFFFFF;
+}
+
+.main-menu a {
+    color: #389674;
+    background: #fff;
+    text-decoration: none;
+}
+
+/* main menu */
+
+
+/* main submenu */
+
+.submenu {
+    list-style-type: none;
+    padding: 10px 10px;
+    margin-top: -3px;
+}
+
+.submenu li {
+    color: #DC5A00;
+    float: left;
+    font-family: 'OpenSansRegular',sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+    margin-right: 27px;
+}
+
+.submenu li a {
+    color: #DC5A00;
+}
+
+/* main submenu */
+
+
+/* main-b */
+.main-b h2 {
+    text-indent: -9999px;
+}
+
+/* main-b */
 
