@@ -680,6 +680,7 @@ ul.breadcrumbs {
     position: absolute;
     top: 169px;
     text-align: center;
+    width: 144px;
 }
 
 .masked-cat {
