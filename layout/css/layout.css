@@ -12,6 +12,11 @@
     height: 1532px;
 }
 
+.debug .dev-inner-2-layout-3 {
+    background: url('../images/niikif-inner-2-layout-3.jpg') center -16px no-repeat;
+    height: 1532px;
+}
+
 
 .debug .dev-layout {
     position: absolute;
@@ -662,18 +667,52 @@ ul.breadcrumbs {
 
 
 /* masked images */
-.masked-cat {
-    width: 194px;
-    height: 200px;
+.category-item {
+    float: left;
+    height: 256px;
+    margin-top: 5px;
+    margin-right: 62px;
+    width: 162px;
+    position: relative;
 }
 
+.category-item h3 {
+    position: absolute;
+    top: 169px;
+    text-align: center;
+}
+
+.masked-cat {
+    width: 172px;
+    height: 182px;
+    position: relative;
+}
+
+.cat-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 182px;
+    position: absolute;
+    width: 172px;
+}
 
 .cat-mask {
-    width: 194px;
-    height: 200px;
+    position: absolute;
+    width: 172px;
+    height: 182px;
     background: url('../images/cat-holder.png');
 }
 
+
+.cat-wrap {
+    width: 600px;
+    overflow: hidden;
+}
+
+.cat-wrap {
+    width: 700px;
+    margin-left: -7px;
+}
 
 
 
