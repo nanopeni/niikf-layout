@@ -95,7 +95,9 @@ h1,h2,h3,h4,h5 {
     background: url('../images/logo.gif') -29px 0 no-repeat;
     text-indent: -9999px;
     height: 188px;
+    display: block;
     position: relative;
+    color: #000;
 }
 
 .header .logo h3 span {
