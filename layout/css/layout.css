@@ -669,26 +669,35 @@ ul.breadcrumbs {
 
 
 /* masked images */
+
+
+
 .category-item {
-    float: left;
-    height: 256px;
-    margin-top: 5px;
+    display: inline-block;
     margin-right: 62px;
+    margin-top: 5px;
+    vertical-align: top;
     width: 162px;
-    position: relative;
+    zoom: 1;
+    *display: inline;
 }
 
-.category-item h3 {
-    position: absolute;
-    top: 169px;
+.category-item label {
+    display: block;
     text-align: center;
-    width: 144px;
+    width: 195px;
+    margin-left: -9px;
+}
+
+.category-item label h5 {
+    text-align: left;
 }
 
 .masked-cat {
-    width: 172px;
+    display: block;
     height: 182px;
     position: relative;
+    width: 172px;
 }
 
 .cat-image {
@@ -709,7 +718,6 @@ ul.breadcrumbs {
 
 .cat-wrap {
     width: 600px;
-    overflow: hidden;
 }
 
 .cat-wrap {
