@@ -726,4 +726,17 @@ ul.breadcrumbs {
 }
 
 
+.logo a {
+    height: 137px;
+    position: absolute;
+    top: 24px;
+    width: 136px;
+}
 
+.logo .link-snake-with-leaves {
+    left: 0;
+}
+
+.logo .link-yellow-mutant-bird {
+    left: 320px;
+}
